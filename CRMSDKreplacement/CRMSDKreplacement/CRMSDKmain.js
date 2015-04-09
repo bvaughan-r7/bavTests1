@@ -1,5 +1,10 @@
 
-
+/**
+ * @method miniCRMSDK
+ * @param template
+ * @param dictionary
+ * @returns
+ */
 function miniCRMSDK(template, dictionary) {
 	//console.log(template);
 	// console.log(dictionary);
@@ -11,6 +16,10 @@ function miniCRMSDK(template, dictionary) {
 	return template;
 }
 
+/**
+ * Main staring point.
+ * 
+ */
 /* var http = require('http');
 http.createServer(function handler(req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
