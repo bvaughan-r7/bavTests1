@@ -8,7 +8,7 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+//import java.util.Map;
  
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -22,7 +22,7 @@ public class FTLHelloWorld {
 	 */
     public static void main(String[] args) {
          
-        //Freemarker configuration object
+        // Freemarker configuration object
         Configuration cfg = new Configuration(Configuration.VERSION_2_3_22);
         try {
         	cfg.setDirectoryForTemplateLoading(new File(".\\src"));
